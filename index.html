@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loginWindow">
+        <div id="signUp" class="startWindow open">
+    
+            <form action="" class="signUp">
+                <h3>Создать</h3>
+                <input placeholder="Почта" type="text" id="inputSignUpLogin">
+                <input placeholder="Пароль" type="password" id="inputSignUpPassword">
+                <button id="signUpBtn">Создать аккаунт</button>
+                <div class="flexSign">
+                <p>Уже есть аккаунт?<p class="signInBut" style="color: red;">Войти</p></p>
+            </div>
+            </form>
+        </div>
+        <div id="signIn" class="startWindow">
+    
+            <form action="" class="signIn">
+                <h3>Войти</h3>
+                <input placeholder="Почта" type="text" id="inputSignInLogin">
+                <input placeholder="Пароль" type="password" id="inputSignInPassword">
+                <button id="signInBtn">Войти в аккаунт</button>
+                <div class="flexSign">
+                <p>Нет аккаунта?</p><p class="signUpBut" style="color: red;">Создать</p>
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="workspace">
+        <input placeholder="Введите вашу задачу" type="text" class="createTodoInput">
+        <div class="flex">
+        <span>Выберите категорию:</span><select name="" class='select' id="sel" onchange="selectOption=value">
+            <option value="Home">Дом</option>
+            <option value="Hobby">Хобби</option>
+            <option value="Work">Работа</option>
+        </select>
+        </div>
+        <button class="createTodoButton">Создать ToDo</button>
+        <div class="flex">
+        <span>Фильтрация по:</span><select id="filter" class='filterSelect'>
+            <option value="all">Все</option>
+            <option value="Home">Дом</option>
+            <option value="Hobby">Хобби</option>
+            <option value="Work">Работа</option>
+          </select>
+        </div>
+        <div class="render"></div>
+        <button class="logout">Выйти</button>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+    <script src="script.js"></script>
+    <script src="sideScripts.js"></script>
+</body>
+</html>

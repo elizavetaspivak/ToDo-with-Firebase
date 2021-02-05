@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f69a73;
+}
+
+.startWindow{
+    display: block;
+}
+
+.startWindow.open{
+    display: none;
+}
+
+form{
+    background: #fff;
+    box-shadow: 2px 2px 5px 2px black;
+    padding: 50px;
+    width: 30%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.signUp{
+    max-width: 450px;
+    min-width: 250px;
+}
+
+.signIn{
+    max-width: 450px;
+    min-width: 250px;
+}
+
+.signUp p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+.signIn p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+.signIn input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signIn #signInBtn {
+    margin-top: 15px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.signIn h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+}
+
+.signUp input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signUp #signUpBtn {
+    margin-top: 15px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.signUp h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+}
+
+.workspace{
+    background: #fff;
+    box-shadow: 2px 2px 5px 2px black;
+    padding: 50px;
+    width: 50%;
+    margin: 100px auto;
+    display: none;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width: 450px;
+    min-width: 250px;
+}
+
+.workspace input{
+    display: block;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.createTodoButton{
+    margin-top: 15px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 18px;
+    border-radius: 23px;
+    outline: none;
+    max-width: 200px;
+    margin-left: 70px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logout{
+    margin-top: 15px;
+    background: #f69a;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    width: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    position: relative;
+    top: -25px;
+    left: 15px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.close{
+    color: red;
+}
+
+.item{
+    position: relative;
+    left: 30px;
+    top: -17px;
+    font-size: 15px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+select{
+    border-radius: 10px;
+    max-width: 100px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexSign{
+    display: flex;
+    justify-content: flex-start;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+}
